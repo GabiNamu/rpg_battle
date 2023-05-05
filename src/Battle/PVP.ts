@@ -10,7 +10,6 @@ export default class PVP extends Battle {
   }
 
   fight(): number {
-    // const newPoints = 
     for (let i = 100; i > -1; i -= 1) {
       this.player1.attack(this.player2);
       this.player2.attack(this.player1);
